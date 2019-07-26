@@ -1,0 +1,2 @@
+# {{ cookiecutter.metadata_name }}
+

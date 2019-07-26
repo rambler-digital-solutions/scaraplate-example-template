@@ -1,0 +1,13 @@
+{
+    "project_dest": null,
+    "project_monorepo_name": "",
+    "python_package": "{{ [cookiecutter.project_monorepo_name, cookiecutter.project_dest]|select()|join('_')|replace('-', '_') }}",
+    "metadata_name": "{{ cookiecutter.python_package|replace('_', '-') }}",
+    "metadata_author": null,
+    "metadata_author_email": null,
+    "metadata_description": null,
+    "metadata_long_description": "file: README.md",
+    "metadata_url": "https://github.com/rambler-digital-solutions/{{ cookiecutter.project_monorepo_name or cookiecutter.project_dest }}",
+    "coverage_fail_under": "100",
+    "mypy_enabled": "1"
+}
