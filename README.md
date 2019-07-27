@@ -3,9 +3,9 @@
 [![Travis CI Build status][travis-badge]][travis-link]
 [![Licensed under MIT][license-badge]][license-link]
 
-[travis-badge]: https://img.shields.io/travis/rambler-digital-solutions/scaraplate-example-template.svg?style=flat-square
+[travis-badge]: https://travis-ci.org/rambler-digital-solutions/scaraplate-example-template.svg
 [travis-link]: https://travis-ci.org/rambler-digital-solutions/scaraplate-example-template
-[license-badge]: https://img.shields.io/github/license/rambler-digital-solutions/scaraplate-example-template.svg?style=flat-square
+[license-badge]: https://scaraplate.readthedocs.io/en/latest/_static/license.svg
 [license-link]: https://github.com/rambler-digital-solutions/scaraplate-example-template/blob/master/LICENSE
 
 
