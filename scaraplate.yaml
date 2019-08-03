@@ -9,6 +9,8 @@ strategies_mapping:
 
   MANIFEST.in: scaraplate.strategies.SortedUniqueLines
 
+  Makefile.inc: scaraplate.strategies.IfMissing
+
   README.md: scaraplate.strategies.IfMissing
 
   mypy.ini:

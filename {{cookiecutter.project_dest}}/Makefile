@@ -2,6 +2,10 @@ PN := {{ cookiecutter.python_package }}
 LINT_TARGET := setup.py src/ tests/
 MYPY_TARGET := src/${PN} tests/
 
+# Additional make targets and overrides of the variables defined above
+# should go to the following file:
+include Makefile.inc
+
 
 .PHONY: develop
 develop:
