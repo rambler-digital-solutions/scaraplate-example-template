@@ -10,18 +10,5 @@ before_install:
 install:
   - travis_retry pip install scaraplate
 
-
 script:
-  - rm -Rf generated_project
-  - scaraplate rollup . generated_project --no-input
-  - cd generated_project
-  - make venv
-  - |
-    bash <<EOF
-    source ./venv/bin/activate
-    set -eux
-    make develop
-    make lint
-    make test
-    make format
-    EOF
+  - make test
