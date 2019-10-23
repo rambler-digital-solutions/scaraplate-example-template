@@ -8,7 +8,7 @@ before_install:
   - travis_retry pip install -U pip wheel setuptools
 
 install:
-  - travis_retry pip install scaraplate
+  - travis_retry pip install 'scaraplate>=0.2'
 
 script:
   - make test
