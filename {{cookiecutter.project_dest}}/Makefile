@@ -24,7 +24,7 @@ format-black:
 
 .PHONY: format-isort
 format-isort:
-	@isort -rc ${LINT_TARGET}
+	@isort ${LINT_TARGET}
 
 
 .PHONY: lint
@@ -43,7 +43,7 @@ lint-flake8:
 
 .PHONY: lint-isort
 lint-isort:
-	@python -m isort.main -df -c -rc ${LINT_TARGET}
+	@python -m isort --check-only ${LINT_TARGET}
 {%- if cookiecutter.mypy_enabled == "1" %}
 
 
@@ -55,7 +55,7 @@ lint-mypy:
 
 .PHONY: test
 test:
-	@python -m coverage run -m py.test
+	@python -m coverage run -m pytest
 	@python -m coverage report
 
 venv:
