@@ -1,10 +1,10 @@
 # scaraplate example template
 
-[![Travis CI Build status][travis-badge]][travis-link]
+[![GitHub Actions Build status][gha-badge]][gha-link]
 [![Licensed under MIT][license-badge]][license-link]
 
-[travis-badge]: https://travis-ci.org/rambler-digital-solutions/scaraplate-example-template.svg
-[travis-link]: https://travis-ci.org/rambler-digital-solutions/scaraplate-example-template
+[gha-badge]: https://img.shields.io/github/workflow/status/rambler-digital-solutions/scaraplate-example-template/CI
+[gha-link]: https://github.com/rambler-digital-solutions/scaraplate-example-template/actions
 [license-badge]: https://scaraplate.readthedocs.io/en/latest/_static/license.svg
 [license-link]: https://github.com/rambler-digital-solutions/scaraplate-example-template/blob/master/LICENSE
 
