@@ -3,7 +3,7 @@
 [![GitHub Actions Build status][gha-badge]][gha-link]
 [![Licensed under MIT][license-badge]][license-link]
 
-[gha-badge]: https://img.shields.io/github/workflow/status/rambler-digital-solutions/scaraplate-example-template/CI
+[gha-badge]: https://img.shields.io/github/actions/workflow/status/rambler-digital-solutions/scaraplate-example-template/ci.yml?branch=master
 [gha-link]: https://github.com/rambler-digital-solutions/scaraplate-example-template/actions
 [license-badge]: https://scaraplate.readthedocs.io/en/latest/_static/license.svg
 [license-link]: https://github.com/rambler-digital-solutions/scaraplate-example-template/blob/master/LICENSE
